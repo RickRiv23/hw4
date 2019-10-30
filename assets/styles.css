@@ -1,0 +1,103 @@
+html{
+    height: 100vh;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100vw;
+    /*height: 100vh;*/
+    padding: 0;
+    margin: 0px;
+    background-image: url("https://www.thoughtco.com/thmb/a7-oKjWsmE8sn4zZ3sr2nPwBMd4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.source-link,a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.source-link,a:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+
+
+
+.section-half{
+    float: left;
+    margin: 0px;
+    /*height: 100%;*/
+    width: calc(50% - 75px);
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+.nav-bar{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background-color: black;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+}
+.nav-wrapper{
+    width: 100%;
+    height: 120px;
+    margin: 100% auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-option{
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.title{
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 25px;
+    font-size: 1.5em;
+}
+
+
+.content-wrapper{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    margin-bottom: 20px;
+    float: left;
+    clear: both;
+}
+.img-wrapper{
+    width: 50%;
+    padding: 25% 0;
+    margin: 20% auto;
+}
+.text-wrapper{
+    width: 80%;
+    padding: 20% 0;
+    margin: 20% auto;
+}
+
+.text{
+    color: white;
+    font-size: 1.7em;
+    word-break: break-word;
+}
